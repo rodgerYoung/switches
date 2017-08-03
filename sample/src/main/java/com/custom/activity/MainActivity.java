@@ -5,7 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.custom.view.SwitchView;
+import com.socket.switches.SwitchView;
+
 
 public class MainActivity extends AppCompatActivity {
     SwitchView switchView;
