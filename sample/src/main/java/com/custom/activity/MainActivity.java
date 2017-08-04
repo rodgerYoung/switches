@@ -1,11 +1,9 @@
 package com.custom.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
 
-import com.socket.switches.SwitchView;
+import com.custom.switches.SwitchView;
 
 
 public class MainActivity extends AppCompatActivity {

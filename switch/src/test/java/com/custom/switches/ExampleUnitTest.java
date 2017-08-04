@@ -1,4 +1,4 @@
-package com.socket.switches;
+package com.custom.switches;
 
 import org.junit.Test;
 

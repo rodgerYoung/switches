@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <declare-styleable name="SwitchView">
-        <attr name="switch_state" format="integer"></attr>
+        <attr name="border_color" format="color" />
+        <attr name="btn_color" format="color" />
+        <attr name="text_color" format="color" />
     </declare-styleable>
 </resources>

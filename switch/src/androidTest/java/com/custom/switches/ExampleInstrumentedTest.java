@@ -1,4 +1,4 @@
-package com.socket.switches;
+package com.custom.switches;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
