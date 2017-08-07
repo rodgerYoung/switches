@@ -14,5 +14,47 @@
 
 ### 使用
 
+#### 1.引用组件
+ 
+To get a Git project into your build:
+Step 1. Add the JitPack repository to your build file
+
+gradle
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+	   repositories {
+         ...
+         maven { url 'https://jitpack.io' }
+       }
+	}
+ Step 2. Add the dependency
+
+	dependencies {
+	   compile 'com.github.yourbelief:switches:1.0.0'
+	}
+
+#### 2.属性设置
+    <com.custom.switches.SwitchView
+        app:border_color="#cccccc"//背景颜色
+        app:btn_color="#cacaca"//按钮颜色
+        app:text_color="#bcbcbc"//字体颜色
+        android:id="@+id/my_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark" />
+    
+   设置按钮的个数同时文字<br>
+   switchView.setStatus(new String[]{"备用","备用","正常"});
+   
+   设置按钮的状态切换
+   
+       switchView.setOnClickStateChange(new SwitchView.OnClickStateChange() {
+          @Override
+          public void onStateChange(int state, String statusText) {
+              Toast.makeText(getApplicationContext(),statusText,Toast.LENGTH_LONG).show();
+          }
+        });
+
  
   
